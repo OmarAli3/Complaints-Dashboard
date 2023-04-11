@@ -9,19 +9,16 @@ import { MultiSelect, MultiSelectChangeEvent } from "primereact/multiselect";
 import { Tag } from "primereact/tag";
 import { useComplaints } from "../../hooks/useComplaints";
 import { tableConfig } from "./utils";
+import { PaginatorCurrentPageReportOptions, PaginatorRowsPerPageDropdownOptions } from "primereact/paginator";
+import { paginationTemplate } from "./PaginationTemplate";
 
 export default function ComplaintsTable() {
   const complaints = useComplaints();
 
+  
   return (
     <div className="h-full flex flex-col m-2 md:m-4 lg:m-8 rounded md:rounded-lg shadow-lg overflow-auto">
-      <DataTable
-        value={complaints}
-        paginator
-        rows={10}
-        rowsPerPageOptions={[10, 20, 30, 50]}
-        paginatorTemplate="RowsPerPageDropdown PrevPageLink CurrentPageReport NextPageLink "
-      >
+      <DataTable value={complaints} paginator rows={10} paginatorTemplate={paginationTemplate}>
         {tableConfig.map((column) => {
           return (
             <Column
