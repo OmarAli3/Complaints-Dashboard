@@ -1,8 +1,10 @@
+import dayjs from "dayjs";
+
 export class ComplaintModel {
   complaintNumber?: string;
   complaintDepartment?: string;
   complaintStatus?: string;
-  complaintDate?: string;
+  complaintDate?: Date;
   // complaintTimeFrame?: string;
   taxpayerName?: string;
   city?: string;
@@ -20,7 +22,7 @@ export class ComplaintModel {
     this.complaintNumber = arg.complaint_number;
     this.complaintDepartment = arg.complaint_department?.en;
     this.complaintStatus = arg.complaint_status?.en;
-    this.complaintDate = arg.complaint_date;
+    this.complaintDate = dayjs(arg.complaint_date).toDate();
     // this.complaintTimeFrame = arg.complaint_time_frame;
     this.taxpayerName = arg.taxpayer_name?.en;
     this.city = arg.city?.en;

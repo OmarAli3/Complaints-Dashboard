@@ -143,9 +143,4 @@ const generateComplaints = () => {
 
 const complaints = generateComplaints();
 
-export default {
-  complaints,
-  departments,
-  statuses,
-  taxpayerTypes,
-};
+export { complaints, departments, statuses, taxpayerTypes };
