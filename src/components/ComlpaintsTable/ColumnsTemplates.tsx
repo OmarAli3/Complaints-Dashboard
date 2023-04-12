@@ -1,4 +1,5 @@
 import dayjs from "dayjs";
+import { Button } from "primereact/button";
 import { Calendar, CalendarSelectEvent } from "primereact/calendar";
 import { ColumnFilterElementTemplateOptions } from "primereact/column";
 import { Dropdown, DropdownChangeEvent } from "primereact/dropdown";
@@ -123,4 +124,8 @@ export const taxpayerTypeRowFilterTemplate = (options: ColumnFilterElementTempla
       placeholder="Select taxpayer type"
     />
   );
+};
+
+export const showDetailsBodyTemplate = (rowData: ComplaintModel) => {
+  return <Button size="small" label="Show details" severity="info" rounded icon="pi pi-angle-right" iconPos="right" />;
 };

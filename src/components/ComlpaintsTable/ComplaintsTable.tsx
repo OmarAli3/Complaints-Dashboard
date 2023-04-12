@@ -12,6 +12,7 @@ import "./complaints-table.scss";
 import { ComplaintModel } from "../../models/ComplaintModel";
 import { GovernorateModel } from "../../models/GovernorateModel";
 import { useLocations } from "../../hooks/useLocations";
+import { showDetailsBodyTemplate } from "./ColumnsTemplates";
 
 const initialFilters = () => {
   return getTableConfig().reduce((acc, { field, matchMode }) => {
@@ -81,10 +82,12 @@ export default function ComplaintsTable() {
         header={Header}
         className="h-full flex flex-col"
         paginatorClassName="border-t border-gray-200"
+        scrollable
       >
         {tableConfig.map(({ field, ...restProps }) => (
           <Column key={field} className="whitespace-nowrap min-w-md" showFilterMenu={false} field={field} {...restProps} />
         ))}
+        <Column className="whitespace-nowrap min-w-sm" body={showDetailsBodyTemplate} frozen alignFrozen="right" />
       </DataTable>
     </div>
   );

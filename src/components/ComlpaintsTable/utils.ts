@@ -29,6 +29,7 @@ export const getTableConfig = (cities: CityModel[] = [], governorates: Governora
       filter: true,
       filterPlaceholder: "Enter complaint number",
       matchMode: FilterMatchMode.STARTS_WITH,
+      frozen: true,
     },
     {
       field: "complaintDepartment",
