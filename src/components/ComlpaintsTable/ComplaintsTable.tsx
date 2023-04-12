@@ -13,7 +13,7 @@ import { tableConfig } from "./utils";
 import { PaginatorCurrentPageReportOptions, PaginatorRowsPerPageDropdownOptions } from "primereact/paginator";
 import { Calendar, CalendarChangeEvent, CalendarSelectEvent } from "primereact/calendar";
 import { paginationTemplate } from "./PaginationTemplate";
-import { departments, statuses } from "../../mock-data/complaintsGenerator";
+import { departments, statuses, taxpayerTypes } from "../../mock-data/complaintsGenerator";
 
 import "./complaints-table.scss";
 import { ComplaintModel } from "../../models/ComplaintModel";
@@ -50,6 +50,38 @@ const initialFilters = () => ({
     value: null,
     matchMode: FilterMatchMode.EQUALS,
   },
+  taxpayerBranchName: {
+    value: null,
+    matchMode: FilterMatchMode.STARTS_WITH,
+  },
+  RIN: {
+    value: null,
+    matchMode: FilterMatchMode.STARTS_WITH,
+  },
+  incentiveRegistered: {
+    value: null,
+    matchMode: FilterMatchMode.EQUALS,
+  },
+  taxpayerType: {
+    value: null,
+    matchMode: FilterMatchMode.EQUALS,
+  },
+  complaintType: {
+    value: null,
+    matchMode: FilterMatchMode.CONTAINS,
+  },
+  customerName: {
+    value: null,
+    matchMode: FilterMatchMode.CONTAINS,
+  },
+  customerMobile: {
+    value: null,
+    matchMode: FilterMatchMode.CONTAINS,
+  },
+  customerNationalID: {
+    value: null,
+    matchMode: FilterMatchMode.STARTS_WITH,
+  },
 });
 export default function ComplaintsTable() {
   const complaints = useComplaints();
@@ -83,8 +115,16 @@ export default function ComplaintsTable() {
     };
     return (
       <div className="flex items-center gap-2">
-        <Calendar value={value[0]} onSelect={onSelect(0)} dateFormat="dd/mm/yy" placeholder="From" mask="99/99/9999" icon="pi pi-calendar" />
-        <Calendar value={value[1]} onSelect={onSelect(1)} dateFormat="dd/mm/yy" placeholder="To" mask="99/99/9999" />
+        <Calendar
+          className="min-w-sm"
+          value={value[0]}
+          onSelect={onSelect(0)}
+          dateFormat="dd/mm/yy"
+          placeholder="From"
+          mask="99/99/9999"
+          icon="pi pi-calendar"
+        />
+        <Calendar className="min-w-sm" value={value[1]} onSelect={onSelect(1)} dateFormat="dd/mm/yy" placeholder="To" mask="99/99/9999" />
       </div>
     );
   };
@@ -128,6 +168,17 @@ export default function ComplaintsTable() {
     );
   };
 
+  const taxpayerTypeRowFilterTemplate = (options: ColumnFilterElementTemplateOptions) => {
+    return (
+      <Dropdown
+        value={options.value}
+        options={taxpayerTypes.map(({ en }) => en)}
+        onChange={(e: DropdownChangeEvent) => options.filterApplyCallback(e.value)}
+        placeholder="Select taxpayer type"
+      />
+    );
+  };
+
   const getSeverity = (status: string) => {
     switch (status) {
       case "Pending":
@@ -159,6 +210,29 @@ export default function ComplaintsTable() {
     );
   };
 
+  const incentiveRegisteredBodyTemplate = (rowData: ComplaintModel) => {
+    return <Tag value={rowData.incentiveRegistered ? "Yes" : "No"} severity={!!rowData.incentiveRegistered ? "success" : "danger"} rounded />;
+  };
+
+  const incentiveRegisteredItemTemplate = (option: boolean) => {
+    return <Tag value={option ? "Yes" : "No"} severity={option ? "success" : "danger"} rounded />;
+  };
+  const incentiveRegisteredRowFilterTemplate = (options: ColumnFilterElementTemplateOptions) => {
+    return (
+      <Dropdown
+        value={options.value}
+        options={[
+          { label: "Yes", value: true },
+          { label: "No", value: false },
+        ]}
+        optionLabel={"label"}
+        onChange={(e: DropdownChangeEvent) => options.filterApplyCallback(e.value)}
+        placeholder="Select one"
+        itemTemplate={({ value }) => incentiveRegisteredItemTemplate(value)}
+      />
+    );
+  };
+
   const governorateRowFilterTemplate = (options: ColumnFilterElementTemplateOptions) => {
     const governorate = governorates.find((gov) => gov.name === options.value);
     const setGovernorate = (e: DropdownChangeEvent) => {
@@ -172,6 +246,10 @@ export default function ComplaintsTable() {
     const city = cities.find((city) => city.name === options.value);
     const setCity = (e: DropdownChangeEvent) => options.filterApplyCallback(e.value.name);
     return <Dropdown value={city} options={cities} optionLabel="name" onChange={setCity} placeholder="Select city" />;
+  };
+
+  const RINBodyTemplate = ({ RIN }: ComplaintModel) => {
+    return `${RIN?.slice(0, 3)}-${RIN?.slice(3, 6)}-${RIN?.slice(6, 9)}`;
   };
 
   return (
@@ -231,7 +309,7 @@ export default function ComplaintsTable() {
           header="Taxpayer Name"
           sortable
           filter
-          className="whitespace-nowrap"
+          className="whitespace-nowrap min-w-md"
           filterPlaceholder="Enter taxpayer name"
           showFilterMenu={false}
         />
@@ -245,6 +323,78 @@ export default function ComplaintsTable() {
           showFilterMenu={false}
         />
         <Column field="city" header="City" sortable filter filterElement={cityRowFilterTemplate} className="whitespace-nowrap" showFilterMenu={false} />
+        <Column
+          field="taxpayerBranchName"
+          header="Taxpayer Branch Name"
+          sortable
+          filter
+          className="whitespace-nowrap min-w-md"
+          filterPlaceholder="Enter Branch Name"
+          showFilterMenu={false}
+        />
+        <Column
+          field="RIN"
+          header="RIN"
+          sortable
+          filter
+          className="whitespace-nowrap min-w-md"
+          filterPlaceholder="Enter RIN"
+          showFilterMenu={false}
+          body={RINBodyTemplate}
+        />
+        <Column
+          field="incentiveRegistered"
+          header="Incentive Registered"
+          sortable
+          filter
+          filterElement={incentiveRegisteredRowFilterTemplate}
+          className="whitespace-nowrap"
+          showFilterMenu={false}
+          body={incentiveRegisteredBodyTemplate}
+        />
+        <Column
+          field="taxpayerType"
+          header="Taxpayer Type"
+          sortable
+          filter
+          filterElement={taxpayerTypeRowFilterTemplate}
+          className="whitespace-nowrap"
+          showFilterMenu={false}
+        />
+        <Column
+          field="complaintType"
+          header="Complaint Type"
+          sortable
+          filter
+          className="whitespace-nowrap min-w-md"
+          filterPlaceholder="Enter complaint type"
+          showFilterMenu={false}
+        />
+        <Column
+          field="customerName"
+          header="Customer Name"
+          sortable
+          filter
+          className="whitespace-nowrap min-w-md"
+          filterPlaceholder="Enter customer name"
+          showFilterMenu={false}
+        />
+        <Column
+          field="customerMobile"
+          header="Customer Mobile"
+          filter
+          className="whitespace-nowrap min-w-md"
+          filterPlaceholder="Enter customer mobile"
+          showFilterMenu={false}
+        />
+        <Column
+          field="customerNationalID"
+          header="Customer National ID"
+          filter
+          className="whitespace-nowrap min-w-md"
+          filterPlaceholder="Enter customer national ID"
+          showFilterMenu={false}
+        />
       </DataTable>
     </div>
   );
