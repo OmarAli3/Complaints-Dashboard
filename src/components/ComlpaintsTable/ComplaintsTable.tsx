@@ -18,6 +18,8 @@ import { departments, statuses } from "../../mock-data/complaintsGenerator";
 import "./complaints-table.scss";
 import { ComplaintModel } from "../../models/ComplaintModel";
 import dayjs from "dayjs";
+import { GovernorateModel } from "../../models/GovernorateModel";
+import { useLocations } from "../../hooks/useLocations";
 
 const initialFilters = () => ({
   complaintNumber: {
@@ -36,10 +38,30 @@ const initialFilters = () => ({
     value: null,
     matchMode: FilterMatchMode.BETWEEN,
   },
+  taxpayerName: {
+    value: null,
+    matchMode: FilterMatchMode.CONTAINS,
+  },
+  governorate: {
+    value: null,
+    matchMode: FilterMatchMode.EQUALS,
+  },
+  city: {
+    value: null,
+    matchMode: FilterMatchMode.EQUALS,
+  },
 });
 export default function ComplaintsTable() {
   const complaints = useComplaints();
+  const { governorates, cities, setGovernorateCities } = useLocations();
+  const [selectedGovernorate, setSelectedGovernorate] = useState<GovernorateModel | null>(null);
   const [filters, setFilters] = useState<DataTableFilterMeta>(initialFilters());
+
+  useEffect(() => {
+    if (selectedGovernorate) {
+      setGovernorateCities(selectedGovernorate.id);
+    }
+  }, [selectedGovernorate]);
   const resetFilters = () => {
     setFilters(initialFilters());
   };
@@ -52,7 +74,7 @@ export default function ComplaintsTable() {
     return dayjs(rowData.complaintDate).format("DD/MM/YYYY");
   };
 
-  const dateFilterTemplate = (options: ColumnFilterElementTemplateOptions) => {
+  const dateRowFilterTemplate = (options: ColumnFilterElementTemplateOptions) => {
     const value = options.value || [null, null];
     const onSelect = (index: number) => (e: CalendarSelectEvent) => {
       const newValue = [...value];
@@ -137,6 +159,21 @@ export default function ComplaintsTable() {
     );
   };
 
+  const governorateRowFilterTemplate = (options: ColumnFilterElementTemplateOptions) => {
+    const governorate = governorates.find((gov) => gov.name === options.value);
+    const setGovernorate = (e: DropdownChangeEvent) => {
+      setSelectedGovernorate(e.value);
+      options.filterApplyCallback(e.value.name);
+    };
+    return <Dropdown value={governorate} options={governorates} optionLabel="name" onChange={setGovernorate} placeholder="Select governorate" />;
+  };
+
+  const cityRowFilterTemplate = (options: ColumnFilterElementTemplateOptions) => {
+    const city = cities.find((city) => city.name === options.value);
+    const setCity = (e: DropdownChangeEvent) => options.filterApplyCallback(e.value.name);
+    return <Dropdown value={city} options={cities} optionLabel="name" onChange={setCity} placeholder="Select city" />;
+  };
+
   return (
     <div className="flex-1 flex flex-col m-2 md:m-4 lg:m-8 rounded md:rounded-lg shadow-lg overflow-auto">
       <DataTable
@@ -184,11 +221,30 @@ export default function ComplaintsTable() {
           header="Complaint Date"
           sortable
           filter
-          filterElement={dateFilterTemplate}
+          filterElement={dateRowFilterTemplate}
           className="whitespace-nowrap"
           showFilterMenu={false}
           body={dateBodyTemplate}
         />
+        <Column
+          field="taxpayerName"
+          header="Taxpayer Name"
+          sortable
+          filter
+          className="whitespace-nowrap"
+          filterPlaceholder="Enter taxpayer name"
+          showFilterMenu={false}
+        />
+        <Column
+          field="governorate"
+          header="Governorate"
+          sortable
+          filter
+          filterElement={governorateRowFilterTemplate}
+          className="whitespace-nowrap"
+          showFilterMenu={false}
+        />
+        <Column field="city" header="City" sortable filter filterElement={cityRowFilterTemplate} className="whitespace-nowrap" showFilterMenu={false} />
       </DataTable>
     </div>
   );

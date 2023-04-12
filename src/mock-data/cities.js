@@ -400,4 +400,6 @@ const cities = [
   { id: "396", governorate_id: "27", city_name_ar: "الكوثر", city_name_en: "Alkawthar" },
 ];
 
-export const groupedCities = groupBy("governorate_id")(cities);
+const groupedCities = groupBy("governorate_id")(cities);
+
+export { groupedCities, cities };

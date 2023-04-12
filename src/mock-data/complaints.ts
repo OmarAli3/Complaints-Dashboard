@@ -9,19 +9,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-04-10T12:08:44.570Z",
+    complaint_date: "2023-04-11T21:26:51.620Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "5",
+      governorate_name_ar: "البحر الأحمر",
+      governorate_name_en: "Red Sea",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "160",
+      governorate_id: "5",
+      city_name_ar: "مرسى علم",
+      city_name_en: "Marsa Alam",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -54,19 +57,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-04-09T12:08:44.570Z",
+    complaint_date: "2023-04-10T21:26:51.621Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "22",
+      governorate_name_ar: "كفر الشيخ",
+      governorate_name_en: "Kafr Al sheikh",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "338",
+      governorate_id: "22",
+      city_name_ar: "مطوبس",
+      city_name_en: "Metobas",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -99,19 +105,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-04-08T12:08:44.570Z",
+    complaint_date: "2023-04-09T21:26:51.621Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "27",
+      governorate_name_ar: "سوهاج",
+      governorate_name_en: "Sohag",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "387",
+      governorate_id: "27",
+      city_name_ar: "البلينا",
+      city_name_en: "Albalina",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -144,19 +153,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-04-07T12:08:44.571Z",
+    complaint_date: "2023-04-08T21:26:51.621Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "15",
+      governorate_name_ar: "اسوان",
+      governorate_name_en: "Aswan",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "260",
+      governorate_id: "15",
+      city_name_ar: "إدفو",
+      city_name_en: "Edfu",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -189,19 +201,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-04-06T12:08:44.571Z",
+    complaint_date: "2023-04-07T21:26:51.621Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "7",
+      governorate_name_ar: "الفيوم",
+      governorate_name_en: "Fayoum",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "187",
+      governorate_id: "7",
+      city_name_ar: "يوسف الصديق",
+      city_name_en: "Yusuf El Sediaq",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -234,19 +249,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-04-05T12:08:44.571Z",
+    complaint_date: "2023-04-06T21:26:51.621Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "18",
+      governorate_name_ar: "بورسعيد",
+      governorate_name_en: "Port Said",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "292",
+      governorate_id: "18",
+      city_name_ar: "حى الضواحى",
+      city_name_en: "Aldawahi",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -279,19 +297,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-04-04T12:08:44.571Z",
+    complaint_date: "2023-04-05T21:26:51.621Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "23",
+      governorate_name_ar: "مطروح",
+      governorate_name_en: "Matrouh",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "349",
+      governorate_id: "23",
+      city_name_ar: "الحمام",
+      city_name_en: "El Hamam",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -324,19 +345,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-04-03T12:08:44.571Z",
+    complaint_date: "2023-04-04T21:26:51.621Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "2",
+      governorate_name_ar: "الجيزة",
+      governorate_name_en: "Giza",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "69",
+      governorate_id: "2",
+      city_name_ar: "كرداسة",
+      city_name_en: "Kerdasa",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -369,19 +393,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-04-02T12:08:44.571Z",
+    complaint_date: "2023-04-03T21:26:51.621Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "12",
+      governorate_name_ar: "القليوبية",
+      governorate_name_en: "Qaliubiya",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "236",
+      governorate_id: "12",
+      city_name_ar: "كفر شكر",
+      city_name_en: "Kafr Shukr",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -414,19 +441,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-04-01T12:08:44.571Z",
+    complaint_date: "2023-04-02T21:26:51.621Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "13",
+      governorate_name_ar: "الوادي الجديد",
+      governorate_name_en: "New Valley",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "246",
+      governorate_id: "13",
+      city_name_ar: "الفرافرة",
+      city_name_en: "Farafra",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -459,19 +489,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-03-31T12:08:44.571Z",
+    complaint_date: "2023-04-01T21:26:51.621Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "24",
+      governorate_name_ar: "الأقصر",
+      governorate_name_en: "Luxor",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "361",
+      governorate_id: "24",
+      city_name_ar: "طيبة الجديدة",
+      city_name_en: "New Tiba",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -504,19 +537,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-03-30T12:08:44.571Z",
+    complaint_date: "2023-03-31T21:26:51.621Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "12",
+      governorate_name_ar: "القليوبية",
+      governorate_name_en: "Qaliubiya",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "231",
+      governorate_id: "12",
+      city_name_ar: "بنها",
+      city_name_en: "Banha",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -549,19 +585,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-03-29T12:08:44.571Z",
+    complaint_date: "2023-03-30T21:26:51.621Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "25",
+      governorate_name_ar: "قنا",
+      governorate_name_en: "Qena",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "373",
+      governorate_id: "25",
+      city_name_ar: "قفط",
+      city_name_en: "Qaft",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -594,19 +633,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-03-28T12:08:44.571Z",
+    complaint_date: "2023-03-29T21:26:51.621Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "10",
+      governorate_name_ar: "المنوفية",
+      governorate_name_en: "Menofia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "212",
+      governorate_id: "10",
+      city_name_ar: "سرس الليان",
+      city_name_en: "Sars El-Layan",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -639,19 +681,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-03-27T12:08:44.571Z",
+    complaint_date: "2023-03-28T21:26:51.622Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "2",
+      governorate_name_ar: "الجيزة",
+      governorate_name_en: "Giza",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "69",
+      governorate_id: "2",
+      city_name_ar: "كرداسة",
+      city_name_en: "Kerdasa",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -684,19 +729,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-03-26T12:08:44.571Z",
+    complaint_date: "2023-03-27T21:26:51.622Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "10",
+      governorate_name_ar: "المنوفية",
+      governorate_name_en: "Menofia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "218",
+      governorate_id: "10",
+      city_name_ar: "الشهداء",
+      city_name_en: "Al Shohada",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -729,19 +777,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-03-25T12:08:44.571Z",
+    complaint_date: "2023-03-26T21:26:51.622Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "10",
+      governorate_name_ar: "المنوفية",
+      governorate_name_en: "Menofia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "209",
+      governorate_id: "10",
+      city_name_ar: "شبين الكوم",
+      city_name_en: "Shbeen El Koom",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -774,19 +825,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-03-24T12:08:44.571Z",
+    complaint_date: "2023-03-25T21:26:51.622Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "18",
+      governorate_name_ar: "بورسعيد",
+      governorate_name_en: "Port Said",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "292",
+      governorate_id: "18",
+      city_name_ar: "حى الضواحى",
+      city_name_en: "Aldawahi",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -819,19 +873,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-03-23T12:08:44.571Z",
+    complaint_date: "2023-03-24T21:26:51.622Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "9",
+      governorate_name_ar: "الإسماعلية",
+      governorate_name_en: "Ismailia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "201",
+      governorate_id: "9",
+      city_name_ar: "فايد",
+      city_name_en: "Fayed",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -864,19 +921,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-03-22T12:08:44.571Z",
+    complaint_date: "2023-03-23T21:26:51.622Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "20",
+      governorate_name_ar: "الشرقية",
+      governorate_name_en: "Sharkia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "308",
+      governorate_id: "20",
+      city_name_ar: "منيا القمح",
+      city_name_en: "Minya Al Qamh",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -909,19 +969,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-03-21T12:08:44.571Z",
+    complaint_date: "2023-03-22T21:26:51.622Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "23",
+      governorate_name_ar: "مطروح",
+      governorate_name_en: "Matrouh",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "348",
+      governorate_id: "23",
+      city_name_ar: "مرسى مطروح",
+      city_name_en: "Marsa Matrouh",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -954,19 +1017,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-03-20T12:08:44.571Z",
+    complaint_date: "2023-03-21T21:26:51.622Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "4",
+      governorate_name_ar: "الدقهلية",
+      governorate_name_en: "Dakahlia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "153",
+      governorate_id: "4",
+      city_name_ar: "جمصة",
+      city_name_en: "Gamasa",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -999,19 +1065,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-03-19T12:08:44.571Z",
+    complaint_date: "2023-03-20T21:26:51.622Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "10",
+      governorate_name_ar: "المنوفية",
+      governorate_name_en: "Menofia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "213",
+      governorate_id: "10",
+      city_name_ar: "أشمون",
+      city_name_en: "Ashmon",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1044,19 +1113,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-03-18T12:08:44.571Z",
+    complaint_date: "2023-03-19T21:26:51.622Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "7",
+      governorate_name_ar: "الفيوم",
+      governorate_name_en: "Fayoum",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "184",
+      governorate_id: "7",
+      city_name_ar: "سنورس",
+      city_name_en: "Snores",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1089,19 +1161,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-03-17T12:08:44.571Z",
+    complaint_date: "2023-03-18T21:26:51.622Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "17",
+      governorate_name_ar: "بني سويف",
+      governorate_name_en: "Beni Suef",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "281",
+      governorate_id: "17",
+      city_name_ar: "إهناسيا",
+      city_name_en: "Ehnasia",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1134,19 +1209,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-03-16T12:08:44.571Z",
+    complaint_date: "2023-03-17T21:26:51.622Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "1",
+      governorate_name_ar: "القاهرة",
+      governorate_name_en: "Cairo",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "40",
+      governorate_id: "1",
+      city_name_ar: "مصر الجديدة",
+      city_name_en: "New Heliopolis",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1179,19 +1257,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-03-15T12:08:44.571Z",
+    complaint_date: "2023-03-16T21:26:51.622Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "21",
+      governorate_name_ar: "جنوب سيناء",
+      governorate_name_en: "South Sinai",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "331",
+      governorate_id: "21",
+      city_name_ar: "أبو رديس",
+      city_name_en: "Abu Redis",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1224,19 +1305,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-03-14T12:08:44.571Z",
+    complaint_date: "2023-03-15T21:26:51.622Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "1",
+      governorate_name_ar: "القاهرة",
+      governorate_name_en: "Cairo",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "51",
+      governorate_id: "1",
+      city_name_ar: "روض الفرج",
+      city_name_en: "Rod Alfarag",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1269,19 +1353,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-03-13T12:08:44.571Z",
+    complaint_date: "2023-03-14T21:26:51.622Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "5",
+      governorate_name_ar: "البحر الأحمر",
+      governorate_name_en: "Red Sea",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "163",
+      governorate_id: "5",
+      city_name_ar: "الدهار",
+      city_name_en: "Aldahar",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1314,19 +1401,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-03-12T12:08:44.571Z",
+    complaint_date: "2023-03-13T21:26:51.622Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "13",
+      governorate_name_ar: "الوادي الجديد",
+      governorate_name_en: "New Valley",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "248",
+      governorate_id: "13",
+      city_name_ar: "الداخلة",
+      city_name_en: "Dakhla",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1359,19 +1449,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-03-11T12:08:44.571Z",
+    complaint_date: "2023-03-12T21:26:51.622Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "17",
+      governorate_name_ar: "بني سويف",
+      governorate_name_en: "Beni Suef",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "277",
+      governorate_id: "17",
+      city_name_ar: "بني سويف",
+      city_name_en: "Bani Sweif",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1404,19 +1497,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-03-10T12:08:44.571Z",
+    complaint_date: "2023-03-11T21:26:51.622Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "15",
+      governorate_name_ar: "اسوان",
+      governorate_name_en: "Aswan",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "256",
+      governorate_id: "15",
+      city_name_ar: "دراو",
+      city_name_en: "Drau",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1449,19 +1545,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-03-09T12:08:44.571Z",
+    complaint_date: "2023-03-10T21:26:51.622Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "15",
+      governorate_name_ar: "اسوان",
+      governorate_name_en: "Aswan",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "263",
+      governorate_id: "15",
+      city_name_ar: "السباعية",
+      city_name_en: "Al Sibaeia",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1494,19 +1593,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-03-08T12:08:44.571Z",
+    complaint_date: "2023-03-09T21:26:51.622Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "26",
+      governorate_name_ar: "شمال سيناء",
+      governorate_name_en: "North Sinai",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "381",
+      governorate_id: "26",
+      city_name_ar: "بئر العبد",
+      city_name_en: "Bir al-Abed",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1539,19 +1641,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-03-07T12:08:44.571Z",
+    complaint_date: "2023-03-08T21:26:51.622Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "3",
+      governorate_name_ar: "الأسكندرية",
+      governorate_name_en: "Alexandria",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "130",
+      governorate_id: "3",
+      city_name_ar: "الساحل الشمالي",
+      city_name_en: "North Coast/sahel",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1584,19 +1689,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-03-06T12:08:44.571Z",
+    complaint_date: "2023-03-07T21:26:51.622Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "1",
+      governorate_name_ar: "القاهرة",
+      governorate_name_en: "Cairo",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "9",
+      governorate_id: "1",
+      city_name_ar: "الزيتون",
+      city_name_en: "El-Zaytoun",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1629,19 +1737,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-03-05T12:08:44.571Z",
+    complaint_date: "2023-03-06T21:26:51.622Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "6",
+      governorate_name_ar: "البحيرة",
+      governorate_name_en: "Beheira",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "174",
+      governorate_id: "6",
+      city_name_ar: "حوش عيسى",
+      city_name_en: "Housh Eissa",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1674,19 +1785,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-03-04T12:08:44.571Z",
+    complaint_date: "2023-03-05T21:26:51.622Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "11",
+      governorate_name_ar: "المنيا",
+      governorate_name_en: "Minya",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "224",
+      governorate_id: "11",
+      city_name_ar: "مطاي",
+      city_name_en: "Mattay",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1719,19 +1833,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-03-03T12:08:44.571Z",
+    complaint_date: "2023-03-04T21:26:51.622Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "9",
+      governorate_name_ar: "الإسماعلية",
+      governorate_name_en: "Ismailia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "206",
+      governorate_id: "9",
+      city_name_ar: "القصاصين الجديدة",
+      city_name_en: "Kasasien El Gedida",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1764,19 +1881,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-03-02T12:08:44.571Z",
+    complaint_date: "2023-03-03T21:26:51.622Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "2",
+      governorate_name_ar: "الجيزة",
+      governorate_name_en: "Giza",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "74",
+      governorate_id: "2",
+      city_name_ar: "العجوزة",
+      city_name_en: "Agouza",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1809,19 +1929,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-03-01T12:08:44.571Z",
+    complaint_date: "2023-03-02T21:26:51.622Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "12",
+      governorate_name_ar: "القليوبية",
+      governorate_name_en: "Qaliubiya",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "242",
+      governorate_id: "12",
+      city_name_ar: "مسطرد",
+      city_name_en: "Mostorod",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1854,19 +1977,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-02-28T12:08:44.571Z",
+    complaint_date: "2023-03-01T21:26:51.622Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "22",
+      governorate_name_ar: "كفر الشيخ",
+      governorate_name_en: "Kafr Al sheikh",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "336",
+      governorate_id: "22",
+      city_name_ar: "دسوق",
+      city_name_en: "Desouq",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1899,19 +2025,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-02-27T12:08:44.571Z",
+    complaint_date: "2023-02-28T21:26:51.622Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "18",
+      governorate_name_ar: "بورسعيد",
+      governorate_name_en: "Port Said",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "293",
+      governorate_id: "18",
+      city_name_ar: "حى المناخ",
+      city_name_en: "Almanakh",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1944,19 +2073,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-02-26T12:08:44.571Z",
+    complaint_date: "2023-02-27T21:26:51.622Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "4",
+      governorate_name_ar: "الدقهلية",
+      governorate_name_en: "Dakahlia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "148",
+      governorate_id: "4",
+      city_name_ar: "الجمالية",
+      city_name_en: "aljamalia",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -1989,19 +2121,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-02-25T12:08:44.571Z",
+    complaint_date: "2023-02-26T21:26:51.622Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "11",
+      governorate_name_ar: "المنيا",
+      governorate_name_en: "Minya",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "228",
+      governorate_id: "11",
+      city_name_ar: "دير مواس",
+      city_name_en: "Deir Mawas",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2034,19 +2169,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-02-24T12:08:44.571Z",
+    complaint_date: "2023-02-25T21:26:51.622Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "14",
+      governorate_name_ar: "السويس",
+      governorate_name_en: "Suez",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "252",
+      governorate_id: "14",
+      city_name_ar: "العين السخنة",
+      city_name_en: "Ain Sokhna",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2079,19 +2217,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-02-23T12:08:44.571Z",
+    complaint_date: "2023-02-24T21:26:51.622Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "12",
+      governorate_name_ar: "القليوبية",
+      governorate_name_en: "Qaliubiya",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "232",
+      governorate_id: "12",
+      city_name_ar: "قليوب",
+      city_name_en: "Qalyub",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2124,19 +2265,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-02-22T12:08:44.571Z",
+    complaint_date: "2023-02-23T21:26:51.622Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "4",
+      governorate_name_ar: "الدقهلية",
+      governorate_name_en: "Dakahlia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "146",
+      governorate_id: "4",
+      city_name_ar: "المنزلة",
+      city_name_en: "Al Manzala",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2169,19 +2313,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-02-21T12:08:44.571Z",
+    complaint_date: "2023-02-22T21:26:51.622Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "3",
+      governorate_name_ar: "الأسكندرية",
+      governorate_name_en: "Alexandria",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "99",
+      governorate_id: "3",
+      city_name_ar: "العامرية",
+      city_name_en: "Ameria",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2214,19 +2361,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-02-20T12:08:44.571Z",
+    complaint_date: "2023-02-21T21:26:51.622Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "25",
+      governorate_name_ar: "قنا",
+      governorate_name_en: "Qena",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "368",
+      governorate_id: "25",
+      city_name_ar: "قنا الجديدة",
+      city_name_en: "New Qena",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2259,19 +2409,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-02-19T12:08:44.571Z",
+    complaint_date: "2023-02-20T21:26:51.622Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "21",
+      governorate_name_ar: "جنوب سيناء",
+      governorate_name_en: "South Sinai",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "325",
+      governorate_id: "21",
+      city_name_ar: "الطور",
+      city_name_en: "Al Toor",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2304,19 +2457,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-02-18T12:08:44.571Z",
+    complaint_date: "2023-02-19T21:26:51.622Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "16",
+      governorate_name_ar: "اسيوط",
+      governorate_name_en: "Assiut",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "271",
+      governorate_id: "16",
+      city_name_ar: "أبنوب",
+      city_name_en: "Abnoub",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2349,19 +2505,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-02-17T12:08:44.571Z",
+    complaint_date: "2023-02-18T21:26:51.622Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "8",
+      governorate_name_ar: "الغربية",
+      governorate_name_en: "Gharbiya",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "197",
+      governorate_id: "8",
+      city_name_ar: "قطور",
+      city_name_en: "Qutour",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2394,19 +2553,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-02-16T12:08:44.571Z",
+    complaint_date: "2023-02-17T21:26:51.622Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "17",
+      governorate_name_ar: "بني سويف",
+      governorate_name_en: "Beni Suef",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "284",
+      governorate_id: "17",
+      city_name_ar: "سمسطا",
+      city_name_en: "Somasta",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2439,19 +2601,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-02-15T12:08:44.571Z",
+    complaint_date: "2023-02-16T21:26:51.622Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "16",
+      governorate_name_ar: "اسيوط",
+      governorate_name_en: "Assiut",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "268",
+      governorate_id: "16",
+      city_name_ar: "ديروط",
+      city_name_en: "Dayrout",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2484,19 +2649,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-02-14T12:08:44.571Z",
+    complaint_date: "2023-02-15T21:26:51.622Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "27",
+      governorate_name_ar: "سوهاج",
+      governorate_name_en: "Sohag",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "383",
+      governorate_id: "27",
+      city_name_ar: "سوهاج",
+      city_name_en: "Sohag",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2529,19 +2697,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-02-13T12:08:44.571Z",
+    complaint_date: "2023-02-14T21:26:51.622Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "23",
+      governorate_name_ar: "مطروح",
+      governorate_name_en: "Matrouh",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "351",
+      governorate_id: "23",
+      city_name_ar: "الضبعة",
+      city_name_en: "Dabaa",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2574,19 +2745,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-02-12T12:08:44.571Z",
+    complaint_date: "2023-02-13T21:26:51.623Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "20",
+      governorate_name_ar: "الشرقية",
+      governorate_name_en: "Sharkia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "310",
+      governorate_id: "20",
+      city_name_ar: "مشتول السوق",
+      city_name_en: "Mashtoul El Souq",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2619,19 +2793,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-02-11T12:08:44.571Z",
+    complaint_date: "2023-02-12T21:26:51.623Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "3",
+      governorate_name_ar: "الأسكندرية",
+      governorate_name_en: "Alexandria",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "120",
+      governorate_id: "3",
+      city_name_ar: "العجمي",
+      city_name_en: "Agamy",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2664,19 +2841,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-02-10T12:08:44.571Z",
+    complaint_date: "2023-02-11T21:26:51.623Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "20",
+      governorate_name_ar: "الشرقية",
+      governorate_name_en: "Sharkia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "312",
+      governorate_id: "20",
+      city_name_ar: "أبو حماد",
+      city_name_en: "Abu Hammad",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2709,19 +2889,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-02-09T12:08:44.571Z",
+    complaint_date: "2023-02-10T21:26:51.623Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "7",
+      governorate_name_ar: "الفيوم",
+      governorate_name_en: "Fayoum",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "189",
+      governorate_id: "7",
+      city_name_ar: "اطسا",
+      city_name_en: "Atsa",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2754,19 +2937,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-02-08T12:08:44.571Z",
+    complaint_date: "2023-02-09T21:26:51.623Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "16",
+      governorate_name_ar: "اسيوط",
+      governorate_name_en: "Assiut",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "275",
+      governorate_id: "16",
+      city_name_ar: "البداري",
+      city_name_en: "El Badari",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2799,19 +2985,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-02-07T12:08:44.571Z",
+    complaint_date: "2023-02-08T21:26:51.623Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "26",
+      governorate_name_ar: "شمال سيناء",
+      governorate_name_en: "North Sinai",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "381",
+      governorate_id: "26",
+      city_name_ar: "بئر العبد",
+      city_name_en: "Bir al-Abed",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2844,19 +3033,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-02-06T12:08:44.571Z",
+    complaint_date: "2023-02-07T21:26:51.623Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "4",
+      governorate_name_ar: "الدقهلية",
+      governorate_name_en: "Dakahlia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "154",
+      governorate_id: "4",
+      city_name_ar: "محلة دمنة",
+      city_name_en: "Mahalat Damana",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2889,19 +3081,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-02-05T12:08:44.571Z",
+    complaint_date: "2023-02-06T21:26:51.623Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "26",
+      governorate_name_ar: "شمال سيناء",
+      governorate_name_en: "North Sinai",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "378",
+      governorate_id: "26",
+      city_name_ar: "الشيخ زويد",
+      city_name_en: "Sheikh Zowaid",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2934,19 +3129,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-02-04T12:08:44.571Z",
+    complaint_date: "2023-02-05T21:26:51.623Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "21",
+      governorate_name_ar: "جنوب سيناء",
+      governorate_name_en: "South Sinai",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "331",
+      governorate_id: "21",
+      city_name_ar: "أبو رديس",
+      city_name_en: "Abu Redis",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -2979,19 +3177,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-02-03T12:08:44.571Z",
+    complaint_date: "2023-02-04T21:26:51.623Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "4",
+      governorate_name_ar: "الدقهلية",
+      governorate_name_en: "Dakahlia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "144",
+      governorate_id: "4",
+      city_name_ar: "الكردي",
+      city_name_en: "El Kurdi",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3024,19 +3225,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-02-02T12:08:44.571Z",
+    complaint_date: "2023-02-03T21:26:51.623Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "10",
+      governorate_name_ar: "المنوفية",
+      governorate_name_en: "Menofia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "210",
+      governorate_id: "10",
+      city_name_ar: "مدينة السادات",
+      city_name_en: "Sadat City",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3069,19 +3273,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-02-01T12:08:44.571Z",
+    complaint_date: "2023-02-02T21:26:51.623Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "18",
+      governorate_name_ar: "بورسعيد",
+      governorate_name_en: "Port Said",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "287",
+      governorate_id: "18",
+      city_name_ar: "بورسعيد",
+      city_name_en: "PorSaid",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3114,19 +3321,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-01-31T12:08:44.572Z",
+    complaint_date: "2023-02-01T21:26:51.623Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "1",
+      governorate_name_ar: "القاهرة",
+      governorate_name_en: "Cairo",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "56",
+      governorate_id: "1",
+      city_name_ar: "النزهة الجديدة",
+      city_name_en: "New Nozha",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3159,19 +3369,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-01-30T12:08:44.572Z",
+    complaint_date: "2023-01-31T21:26:51.623Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "3",
+      governorate_name_ar: "الأسكندرية",
+      governorate_name_en: "Alexandria",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "116",
+      governorate_id: "3",
+      city_name_ar: "كرموز",
+      city_name_en: "Karmooz",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3204,19 +3417,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-01-29T12:08:44.572Z",
+    complaint_date: "2023-01-30T21:26:51.623Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "25",
+      governorate_name_ar: "قنا",
+      governorate_name_en: "Qena",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "373",
+      governorate_id: "25",
+      city_name_ar: "قفط",
+      city_name_en: "Qaft",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3249,19 +3465,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-01-28T12:08:44.572Z",
+    complaint_date: "2023-01-29T21:26:51.623Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "18",
+      governorate_name_ar: "بورسعيد",
+      governorate_name_en: "Port Said",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "289",
+      governorate_id: "18",
+      city_name_ar: "العرب",
+      city_name_en: "Alarab",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3294,19 +3513,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-01-27T12:08:44.572Z",
+    complaint_date: "2023-01-28T21:26:51.623Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "8",
+      governorate_name_ar: "الغربية",
+      governorate_name_en: "Gharbiya",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "195",
+      governorate_id: "8",
+      city_name_ar: "زفتى",
+      city_name_en: "Zefta",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3339,19 +3561,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-01-26T12:08:44.572Z",
+    complaint_date: "2023-01-27T21:26:51.623Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "19",
+      governorate_name_ar: "دمياط",
+      governorate_name_en: "Damietta",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "298",
+      governorate_id: "19",
+      city_name_ar: "فارسكور",
+      city_name_en: "Faraskour",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3384,19 +3609,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-01-25T12:08:44.572Z",
+    complaint_date: "2023-01-26T21:26:51.623Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "14",
+      governorate_name_ar: "السويس",
+      governorate_name_en: "Suez",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "249",
+      governorate_id: "14",
+      city_name_ar: "السويس",
+      city_name_en: "Suez",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3429,19 +3657,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-01-24T12:08:44.572Z",
+    complaint_date: "2023-01-25T21:26:51.623Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "10",
+      governorate_name_ar: "المنوفية",
+      governorate_name_en: "Menofia",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "212",
+      governorate_id: "10",
+      city_name_ar: "سرس الليان",
+      city_name_en: "Sars El-Layan",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3474,19 +3705,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-01-23T12:08:44.572Z",
+    complaint_date: "2023-01-24T21:26:51.623Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "23",
+      governorate_name_ar: "مطروح",
+      governorate_name_en: "Matrouh",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "353",
+      governorate_id: "23",
+      city_name_ar: "سيدي براني",
+      city_name_en: "Sidi Brani",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3519,19 +3753,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-01-22T12:08:44.572Z",
+    complaint_date: "2023-01-23T21:26:51.623Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "11",
+      governorate_name_ar: "المنيا",
+      governorate_name_en: "Minya",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "223",
+      governorate_id: "11",
+      city_name_ar: "بني مزار",
+      city_name_en: "Bani Mazar",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3564,19 +3801,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-01-21T12:08:44.572Z",
+    complaint_date: "2023-01-22T21:26:51.623Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "5",
+      governorate_name_ar: "البحر الأحمر",
+      governorate_name_en: "Red Sea",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "162",
+      governorate_id: "5",
+      city_name_ar: "حلايب",
+      city_name_en: "Halaib",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3609,19 +3849,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-01-20T12:08:44.572Z",
+    complaint_date: "2023-01-21T21:26:51.623Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "13",
+      governorate_name_ar: "الوادي الجديد",
+      governorate_name_en: "New Valley",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "246",
+      governorate_id: "13",
+      city_name_ar: "الفرافرة",
+      city_name_en: "Farafra",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3654,19 +3897,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-01-19T12:08:44.572Z",
+    complaint_date: "2023-01-20T21:26:51.623Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "13",
+      governorate_name_ar: "الوادي الجديد",
+      governorate_name_en: "New Valley",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "243",
+      governorate_id: "13",
+      city_name_ar: "الخارجة",
+      city_name_en: "El Kharga",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3699,19 +3945,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-01-18T12:08:44.572Z",
+    complaint_date: "2023-01-19T21:26:51.623Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "6",
+      governorate_name_ar: "البحيرة",
+      governorate_name_en: "Beheira",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "174",
+      governorate_id: "6",
+      city_name_ar: "حوش عيسى",
+      city_name_en: "Housh Eissa",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3744,19 +3993,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-01-17T12:08:44.572Z",
+    complaint_date: "2023-01-18T21:26:51.623Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "22",
+      governorate_name_ar: "كفر الشيخ",
+      governorate_name_en: "Kafr Al sheikh",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "341",
+      governorate_id: "22",
+      city_name_ar: "مصيف بلطيم",
+      city_name_en: "Masief Baltim",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3789,19 +4041,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-01-16T12:08:44.572Z",
+    complaint_date: "2023-01-17T21:26:51.623Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "18",
+      governorate_name_ar: "بورسعيد",
+      governorate_name_en: "Port Said",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "292",
+      governorate_id: "18",
+      city_name_ar: "حى الضواحى",
+      city_name_en: "Aldawahi",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3834,19 +4089,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-01-15T12:08:44.572Z",
+    complaint_date: "2023-01-16T21:26:51.623Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "22",
+      governorate_name_ar: "كفر الشيخ",
+      governorate_name_en: "Kafr Al sheikh",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "336",
+      governorate_id: "22",
+      city_name_ar: "دسوق",
+      city_name_en: "Desouq",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3879,19 +4137,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-01-14T12:08:44.572Z",
+    complaint_date: "2023-01-15T21:26:51.623Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "22",
+      governorate_name_ar: "كفر الشيخ",
+      governorate_name_en: "Kafr Al sheikh",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "334",
+      governorate_id: "22",
+      city_name_ar: "كفر الشيخ",
+      city_name_en: "Kafr El Sheikh",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3924,19 +4185,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-01-13T12:08:44.572Z",
+    complaint_date: "2023-01-14T21:26:51.623Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "17",
+      governorate_name_ar: "بني سويف",
+      governorate_name_en: "Beni Suef",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "279",
+      governorate_id: "17",
+      city_name_ar: "الواسطى",
+      city_name_en: "Al Wasta",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -3969,19 +4233,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-01-12T12:08:44.572Z",
+    complaint_date: "2023-01-13T21:26:51.623Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "6",
+      governorate_name_ar: "البحيرة",
+      governorate_name_en: "Beheira",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "166",
+      governorate_id: "6",
+      city_name_ar: "رشيد",
+      city_name_en: "Rashid",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -4014,19 +4281,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-01-11T12:08:44.572Z",
+    complaint_date: "2023-01-12T21:26:51.623Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "16",
+      governorate_name_ar: "اسيوط",
+      governorate_name_en: "Assiut",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "274",
+      governorate_id: "16",
+      city_name_ar: "ساحل سليم",
+      city_name_en: "Sahel Selim",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -4059,19 +4329,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-01-10T12:08:44.572Z",
+    complaint_date: "2023-01-11T21:26:51.623Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "1",
+      governorate_name_ar: "القاهرة",
+      governorate_name_en: "Cairo",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "7",
+      governorate_id: "1",
+      city_name_ar: "الدرب الاحمر",
+      city_name_en: "Aldarb Alahmar",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -4104,19 +4377,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-01-09T12:08:44.572Z",
+    complaint_date: "2023-01-10T21:26:51.623Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "17",
+      governorate_name_ar: "بني سويف",
+      governorate_name_en: "Beni Suef",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "279",
+      governorate_id: "17",
+      city_name_ar: "الواسطى",
+      city_name_en: "Al Wasta",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -4149,19 +4425,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-01-08T12:08:44.572Z",
+    complaint_date: "2023-01-09T21:26:51.623Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "23",
+      governorate_name_ar: "مطروح",
+      governorate_name_en: "Matrouh",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "350",
+      governorate_id: "23",
+      city_name_ar: "العلمين",
+      city_name_en: "Alamein",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -4194,19 +4473,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-01-07T12:08:44.572Z",
+    complaint_date: "2023-01-08T21:26:51.623Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "5",
+      governorate_name_ar: "البحر الأحمر",
+      governorate_name_en: "Red Sea",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "157",
+      governorate_id: "5",
+      city_name_ar: "رأس غارب",
+      city_name_en: "Ras Ghareb",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -4239,19 +4521,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-01-06T12:08:44.572Z",
+    complaint_date: "2023-01-07T21:26:51.623Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "18",
+      governorate_name_ar: "بورسعيد",
+      governorate_name_en: "Port Said",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "291",
+      governorate_id: "18",
+      city_name_ar: "حى الشرق",
+      city_name_en: "Alsharq",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -4284,19 +4569,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-01-05T12:08:44.572Z",
+    complaint_date: "2023-01-06T21:26:51.623Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "17",
+      governorate_name_ar: "بني سويف",
+      governorate_name_en: "Beni Suef",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "282",
+      governorate_id: "17",
+      city_name_ar: "ببا",
+      city_name_en: "beba",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -4329,19 +4617,22 @@ export const complaints = [
       en: "Pending",
       ar: "معلقة",
     },
-    complaint_date: "2023-01-04T12:08:44.572Z",
+    complaint_date: "2023-01-05T21:26:51.623Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "25",
+      governorate_name_ar: "قنا",
+      governorate_name_en: "Qena",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "376",
+      governorate_id: "25",
+      city_name_ar: "قوص",
+      city_name_en: "Quos",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -4374,19 +4665,22 @@ export const complaints = [
       en: "Transferred",
       ar: "محولة",
     },
-    complaint_date: "2023-01-03T12:08:44.572Z",
+    complaint_date: "2023-01-04T21:26:51.623Z",
     complaint_time_frame: "Medium",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "27",
+      governorate_name_ar: "سوهاج",
+      governorate_name_en: "Sohag",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "387",
+      governorate_id: "27",
+      city_name_ar: "البلينا",
+      city_name_en: "Albalina",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -4419,19 +4713,22 @@ export const complaints = [
       en: "Closed",
       ar: "مغلقة",
     },
-    complaint_date: "2023-01-02T12:08:44.572Z",
+    complaint_date: "2023-01-03T21:26:51.623Z",
     complaint_time_frame: "Urgent",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "18",
+      governorate_name_ar: "بورسعيد",
+      governorate_name_en: "Port Said",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "289",
+      governorate_id: "18",
+      city_name_ar: "العرب",
+      city_name_en: "Alarab",
     },
     taxpayer_branch_name: {
       en: "Abbas",
@@ -4464,19 +4761,22 @@ export const complaints = [
       en: "Closed with receipt",
       ar: "مغلقة مع قسيمة",
     },
-    complaint_date: "2023-01-01T12:08:44.572Z",
+    complaint_date: "2023-01-02T21:26:51.623Z",
     complaint_time_frame: "Normal",
     taxpayer_name: {
       en: "Starbucks",
       ar: "ستاربكس",
     },
-    city: {
-      en: "Cairo",
-      ar: "القاهرة",
+    governorate: {
+      id: "17",
+      governorate_name_ar: "بني سويف",
+      governorate_name_en: "Beni Suef",
     },
-    area: {
-      en: "Nasr City",
-      ar: "مدينة نصر",
+    city: {
+      id: "279",
+      governorate_id: "17",
+      city_name_ar: "الواسطى",
+      city_name_en: "Al Wasta",
     },
     taxpayer_branch_name: {
       en: "Abbas",

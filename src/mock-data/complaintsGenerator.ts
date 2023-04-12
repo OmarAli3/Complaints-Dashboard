@@ -1,5 +1,11 @@
+/**
+ * No need to understand this file, it's just a script to generate mock data
+ * Just try to understand the data structure and trust that it's correct :)
+ */
+
 import dayjs from "dayjs";
-// Generate fake complaints data for testing purposes
+import { groupedCities } from "./cities";
+import { governorates } from "./governorates";
 const complaintSample = {
   complaint_number: "123456789",
   complaint_department: {
@@ -16,14 +22,8 @@ const complaintSample = {
     en: "Starbucks",
     ar: "ستاربكس",
   },
-  city: {
-    en: "Cairo",
-    ar: "القاهرة",
-  },
-  area: {
-    en: "Nasr City",
-    ar: "مدينة نصر",
-  },
+  governorate: { id: "1", governorate_name_ar: "القاهرة", governorate_name_en: "Cairo" },
+  city: { id: "1", governorate_id: "1", city_name_ar: "15 مايو", city_name_en: "15 May" },
   taxpayer_branch_name: {
     en: "Abbas",
     ar: "عباس",
@@ -136,6 +136,12 @@ const generateComplaints = () => {
     complaint.customer_name = customerNames[i % customerNames.length];
     complaint.customer_mobile = customerMobiles[i % customerMobiles.length];
     complaint.customer_nationalID = `${"2951" + i}`.padEnd(14, "0");
+
+    const governorateId = Math.floor(Math.random() * governorates.length);
+    complaint.governorate = governorates[governorateId];
+    const cityId = Math.floor(Math.random() * groupedCities[complaint.governorate.id].length);
+    complaint.city = groupedCities[complaint.governorate.id][cityId];
+
     complaints.push(complaint);
   }
   return complaints;
